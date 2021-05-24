@@ -1,0 +1,13 @@
+.side-bar {
+    width: 17%;
+    user-select: none;
+    padding-right: 8px;
+}
+
+hr {
+	size: 0.7;
+	height: 1px;
+    margin: 8px 0;
+    border: none;
+    background-color: rgb(233, 231, 231);
+}

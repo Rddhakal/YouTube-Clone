@@ -1,0 +1,11 @@
+.videoes-container .videos-list {
+    width: 100%;
+    min-height: 82vh;
+    max-height: 82vh;
+    background: rgb(243, 243, 243);
+    overflow-y: scroll;
+    padding: 20px 10px 0 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

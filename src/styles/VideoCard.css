@@ -1,0 +1,85 @@
+.videos-list .vide-card {
+    width: 23.5%;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+.thumbnail {
+    width: 100%;
+    height: 140px;
+    margin-bottom: 15px;
+    user-select: none;
+    position: relative;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+}
+
+.thumbnail .hover-action {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+.hover-action button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    outline: 0;
+    background: black;
+    color: white;
+    padding: 2px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.thumbnail:hover .hover-action {
+    display: block;
+}
+
+.thumbnail .time {
+    position: absolute;
+    padding: 3px 10px;
+    background: black;
+    color: white;
+    font-size: 12px;
+    bottom:5px;
+    right: 5px;
+    border-radius: 4px;
+}
+
+.video-card-footer {
+    display: flex;
+}
+
+.video-card-footer .channel-icon {
+    width: 33px;
+    height: 33px;
+    border-radius: 100px;
+    margin-right: 15px;
+    user-select: none;
+}
+
+.video-title {
+    padding-bottom: 8px;
+    font-size: 15px;
+}
+
+.channel-name {
+    font-size: 14px;
+}
+.views-time {
+    display: flex;
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.views-time p {
+    padding-right: 20px;
+}
